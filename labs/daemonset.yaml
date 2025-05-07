@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: frontend-rs
+  labels:
+    app: frontend
+
+spec:
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      name: pod-web-server
+      labels:
+        app: my-app
+        tier: frontend
+    spec:
+      containers:
+        - name: my-container-nginx
+          image: nginx
