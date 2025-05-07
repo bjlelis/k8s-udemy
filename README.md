@@ -4,12 +4,19 @@ Este repositório contém o material criado durante o curso **Kubernetes Complet
 
 ## Conteúdo Abordado
 
-Ao longo do curso, foram desenvolvidos diversos **labs práticos**, cobrindo os principais conceitos e recursos do Kubernetes:
+Ao longo do curso, foram desenvolvidos diversos **labs práticos** usando o minikube, cobrindo os principais conceitos e recursos do Kubernetes:
 
 - Criação e gerenciamento de **Pods**
 - Exposição de aplicações via **Services**
 - Uso de **ReplicaSets** para alta disponibilidade
 - Deploy de aplicações com **Deployments**
+- K8s Networking
+- Probes
+- Gerenciamento de volumes
+- Jobs e cronjobs
+- ConfigMaps e secrets
+- DaemonSet
+- Endpoint e endpointslices
 - Armazenamento e gerenciamento de estado com **StatefulSets**
 - Gerenciamento de permissões com:
   - **Roles**
