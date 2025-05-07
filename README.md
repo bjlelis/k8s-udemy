@@ -33,3 +33,5 @@ O repositório está organizado por diretórios conforme os tópicos abordados. 
 ---
 
 Este repositório serve como apoio prático para revisão e aprendizado contínuo dos conceitos essenciais de Kubernetes aplicados em ambientes DevOps.
+
+O curso está disponível na udemy: https://www.udemy.com/course/kubernetes-power-profissional-formacao-inicial-completa/?couponCode=ST6MT60525G3
